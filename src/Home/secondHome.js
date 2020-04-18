@@ -1,14 +1,14 @@
 import React from 'react';
-import './topHome.css';
-import background from "./Images/36401449295_e25881d153_b.jpg";
-import logo from "./Images/SmallLogo.png";
+import './secondHome.css';
+import background from "../Images/36401449295_e25881d153_b.jpg";
+import logo from "../Images/SmallLogo.png";
 
-function topHome() {
+function secondHome() {
   return (
     <div>
       <img className="background" src={background}></img>
       <div class="navbar">
-        <a href="topHome.js">
+        <a href="Home/topHome.js">
           <img className="smallLogo" src={logo}></img>
         </a>
         <a className="options" href="#news">News</a>
@@ -21,4 +21,4 @@ function topHome() {
   );
 }
 
-export default topHome;
+export default secondHome;
