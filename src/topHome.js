@@ -1,18 +1,22 @@
 import React from 'react';
 import './topHome.css';
+import background from "./Images/36401449295_e25881d153_b.jpg";
+import logo from "./Images/SmallLogo.png";
 
 function topHome() {
   return (
     <div>
+      <img className="background" src={background}></img>
       <div class="navbar">
-        <a className="smallLogo" href="topHome.js">
-          <img src="../SmallLogo.png"></img>
+        <a href="topHome.js">
+          <img className="smallLogo" src={logo}></img>
         </a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
+        <a className="options" href="#news">News</a>
+        <a className="options" href="#contact">Contact</a>
       </div>
-      <header className="top-header">
-      </header>
+      <h2>Hi! My name is</h2>
+      <h1>Alisa Chang</h1>
+      <div class="overlay"></div>
     </div>
   );
 }
