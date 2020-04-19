@@ -5,19 +5,18 @@ import HomeComponents from './Home/index';
 import NavBar from './NavBar/index';
 import ResumeComponents from './Resume/index';
 import * as serviceWorker from './serviceWorker';
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Route path={["/alisa-web", "alisa-web/resume"]} component={NavBar}></Route>
+      <Route
+        path={['/alisa-web', 'alisa-web/resume']}
+        component={NavBar}
+      ></Route>
       <Switch>
-        <Route path="/alisa-web" component={HomeComponents}></Route>
-        <Route path="/alisa-web/resume" component={ResumeComponents}></Route>
+        <Route path='/alisa-web' component={HomeComponents}></Route>
+        <Route path='/alisa-web/resume' component={ResumeComponents}></Route>
       </Switch>
     </Router>
   </React.StrictMode>,
