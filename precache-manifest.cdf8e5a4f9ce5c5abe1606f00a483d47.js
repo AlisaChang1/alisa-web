@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42ced2e230cbd263725338922af04d7a",
+    "revision": "8363ff9ee6f3d6d57d368f8470cad42c",
     "url": "/alisa-web/index.html"
   },
   {
-    "revision": "c440f7a73b93f9892e80",
-    "url": "/alisa-web/static/css/main.9968de03.chunk.css"
+    "revision": "c61bda7aadd587cba994",
+    "url": "/alisa-web/static/css/main.552c3d76.chunk.css"
   },
   {
-    "revision": "e4293a9c5ce22cb49b15",
-    "url": "/alisa-web/static/js/2.c9378b3b.chunk.js"
+    "revision": "4f499ecc09205c3a4898",
+    "url": "/alisa-web/static/js/2.a55fed07.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/alisa-web/static/js/2.c9378b3b.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/alisa-web/static/js/2.a55fed07.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c440f7a73b93f9892e80",
-    "url": "/alisa-web/static/js/main.eedb32cc.chunk.js"
+    "revision": "c61bda7aadd587cba994",
+    "url": "/alisa-web/static/js/main.643eaed9.chunk.js"
   },
   {
     "revision": "b07abaa6dc4487c920c0",
