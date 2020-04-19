@@ -1,41 +1,9 @@
 /*
-*   Navigation Bar
-*/
-.navbar {
-    background-color: white;
-    height: 60px;
-    width: 100%;
-    position: fixed;
-}
-
-.navbar a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-}
-
-.options {
-    padding: 28px 16px;
-}
-
-.navbar a:hover {
-    color: pink;
-}
-
-.navbar .smallLogo {
-    height: 35px;
-    width: 35px;
-    padding: 19px 16px;
-}
-
-/*
 *   Background
 */
 .background {
     background-color: pink;
-    height: 780px;
+    height: 100%;
     margin-top: 0;
     width: 100%;
     position: fixed;
