@@ -9,14 +9,15 @@ function navbar() {
   return (
     <Router>
       <div className='navbar'>
-        <a href='alisa-web'>
-          <Route path='/alisa-web' component={Home}>
+        <a href='/home'>
+          <Route path={['/home', '/resume']} component={Home}>
             <img className='smallLogo' src={logo}></img>
           </Route>
         </a>
-        <a className='options' href='alisa-web/resume'>
-          Resume
-          <Route path='/alisa-web/resume' component={Resume}></Route>
+        <a href='/resume'>
+          <Route path={['/resume', '/home']} component={Resume}>
+            <div className='options'>Resume</div>
+          </Route>
         </a>
       </div>
     </Router>

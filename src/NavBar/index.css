@@ -17,13 +17,19 @@
   cursor: pointer;
 }
 
-.options {
+.navbar .options {
   padding: 28px 16px;
   font-size: 20px;
   font-family: 'Papyrus';
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.navbar a:hover {
+.navbar .options:hover {
   color: pink;
 }
 
