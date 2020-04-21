@@ -7,15 +7,15 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function navbar() {
   return (
-    <Router>
+    <Router basename='/alisa-web'>
       <div className='navbar'>
-        <a href='/'>
-          <Route path={['/', '/resume']} component={Home}>
+        <a href='/home'>
+          <Route path={['/home', '/resume']} component={Home}>
             <img className='smallLogo' src={logo}></img>
           </Route>
         </a>
         <a href='/resume'>
-          <Route path={['/resume', '/']} component={Resume}>
+          <Route path={['/resume', '/home']} component={Resume}>
             <div className='options'>Resume</div>
           </Route>
         </a>

@@ -9,10 +9,10 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <Route path={['/', '/resume']} component={NavBar}></Route>
+    <Router basename='/alisa-web'>
+      <Route path={['/home', '/resume']} component={NavBar}></Route>
       <Switch>
-        <Route path='/' component={HomeComponents}></Route>
+        <Route path='/home' component={HomeComponents}></Route>
         <Route path='/resume' component={ResumeComponents}></Route>
       </Switch>
     </Router>
