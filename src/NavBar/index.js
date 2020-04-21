@@ -9,13 +9,13 @@ function navbar() {
   return (
     <Router>
       <div className='navbar'>
-        <a href='/home'>
-          <Route path={['/home', '/resume']} component={Home}>
+        <a href='/'>
+          <Route path={['/', '/resume']} component={Home}>
             <img className='smallLogo' src={logo}></img>
           </Route>
         </a>
         <a href='/resume'>
-          <Route path={['/resume', '/home']} component={Resume}>
+          <Route path={['/resume', '/']} component={Resume}>
             <div className='options'>Resume</div>
           </Route>
         </a>
