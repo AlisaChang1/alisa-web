@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/alisa-web/static/css/main.552c3d76.chunk.css",
-    "main.js": "/alisa-web/static/js/main.643eaed9.chunk.js",
-    "main.js.map": "/alisa-web/static/js/main.643eaed9.chunk.js.map",
-    "runtime-main.js": "/alisa-web/static/js/runtime-main.b9b49233.js",
-    "runtime-main.js.map": "/alisa-web/static/js/runtime-main.b9b49233.js.map",
-    "static/js/2.a55fed07.chunk.js": "/alisa-web/static/js/2.a55fed07.chunk.js",
-    "static/js/2.a55fed07.chunk.js.map": "/alisa-web/static/js/2.a55fed07.chunk.js.map",
-    "index.html": "/alisa-web/index.html",
-    "precache-manifest.cdf8e5a4f9ce5c5abe1606f00a483d47.js": "/alisa-web/precache-manifest.cdf8e5a4f9ce5c5abe1606f00a483d47.js",
-    "service-worker.js": "/alisa-web/service-worker.js",
-    "static/css/main.552c3d76.chunk.css.map": "/alisa-web/static/css/main.552c3d76.chunk.css.map",
-    "static/js/2.a55fed07.chunk.js.LICENSE.txt": "/alisa-web/static/js/2.a55fed07.chunk.js.LICENSE.txt",
-    "static/media/36401449295_e25881d153_b.jpg": "/alisa-web/static/media/36401449295_e25881d153_b.1fd5b6ab.jpg",
-    "static/media/SmallLogo.png": "/alisa-web/static/media/SmallLogo.952bc868.png"
+    "main.css": "/home/static/css/main.22cdc223.chunk.css",
+    "main.js": "/home/static/js/main.0ba63aa5.chunk.js",
+    "main.js.map": "/home/static/js/main.0ba63aa5.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.2318360a.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.2318360a.js.map",
+    "static/js/2.a55fed07.chunk.js": "/home/static/js/2.a55fed07.chunk.js",
+    "static/js/2.a55fed07.chunk.js.map": "/home/static/js/2.a55fed07.chunk.js.map",
+    "index.html": "/home/index.html",
+    "precache-manifest.a2e5c9ee0ac3fb5037442e0b2aae8edf.js": "/home/precache-manifest.a2e5c9ee0ac3fb5037442e0b2aae8edf.js",
+    "service-worker.js": "/home/service-worker.js",
+    "static/css/main.22cdc223.chunk.css.map": "/home/static/css/main.22cdc223.chunk.css.map",
+    "static/js/2.a55fed07.chunk.js.LICENSE.txt": "/home/static/js/2.a55fed07.chunk.js.LICENSE.txt",
+    "static/media/36401449295_e25881d153_b.jpg": "/home/static/media/36401449295_e25881d153_b.1fd5b6ab.jpg",
+    "static/media/SmallLogo.png": "/home/static/media/SmallLogo.952bc868.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b9b49233.js",
+    "static/js/runtime-main.2318360a.js",
     "static/js/2.a55fed07.chunk.js",
-    "static/css/main.552c3d76.chunk.css",
-    "static/js/main.643eaed9.chunk.js"
+    "static/css/main.22cdc223.chunk.css",
+    "static/js/main.0ba63aa5.chunk.js"
   ]
 }
