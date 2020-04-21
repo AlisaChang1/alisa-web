@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/alisa-web/static/css/main.22cdc223.chunk.css",
-    "main.js": "/alisa-web/static/js/main.3ed08878.chunk.js",
-    "main.js.map": "/alisa-web/static/js/main.3ed08878.chunk.js.map",
+    "main.js": "/alisa-web/static/js/main.7126737f.chunk.js",
+    "main.js.map": "/alisa-web/static/js/main.7126737f.chunk.js.map",
     "runtime-main.js": "/alisa-web/static/js/runtime-main.b9b49233.js",
     "runtime-main.js.map": "/alisa-web/static/js/runtime-main.b9b49233.js.map",
     "static/js/2.a55fed07.chunk.js": "/alisa-web/static/js/2.a55fed07.chunk.js",
     "static/js/2.a55fed07.chunk.js.map": "/alisa-web/static/js/2.a55fed07.chunk.js.map",
     "index.html": "/alisa-web/index.html",
-    "precache-manifest.59d2ed673e09a1997a9e0d2d8ce03a97.js": "/alisa-web/precache-manifest.59d2ed673e09a1997a9e0d2d8ce03a97.js",
+    "precache-manifest.6f0083f764c9b52ac9af3a3b19ab6d16.js": "/alisa-web/precache-manifest.6f0083f764c9b52ac9af3a3b19ab6d16.js",
     "service-worker.js": "/alisa-web/service-worker.js",
     "static/css/main.22cdc223.chunk.css.map": "/alisa-web/static/css/main.22cdc223.chunk.css.map",
     "static/js/2.a55fed07.chunk.js.LICENSE.txt": "/alisa-web/static/js/2.a55fed07.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.b9b49233.js",
     "static/js/2.a55fed07.chunk.js",
     "static/css/main.22cdc223.chunk.css",
-    "static/js/main.3ed08878.chunk.js"
+    "static/js/main.7126737f.chunk.js"
   ]
 }
