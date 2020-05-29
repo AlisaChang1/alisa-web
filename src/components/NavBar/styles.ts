@@ -1,14 +1,4 @@
-/*
- *   Navigation Bar
- */
 import styled from 'styled-components';
-
-export const NavBar = styled.div`
-  background-color: white;
-  height: 60px;
-  width: 100%;
-  position: fixed;
-`;
 
 export const Options = styled.a`
   float: left;
