@@ -1,15 +1,15 @@
 import React from 'react';
 import background from '../images/36401449295_e25881d153_b.jpg';
-import { Background } from './styles';
+import { Background, Name, Intro } from './styles';
 
 const Home = () => {
-  return (
-    <div>
-      <Background src={background}></Background>
-      <h2>Hi! My name is</h2>
-      <h1>Alisa Chang</h1>
-    </div>
-  );
+    return (
+        <Background>
+            {/* <Background src={background}></Background> */}
+            <Name>Hi! My name is</Name>
+            <Intro>Alisa Chang</Intro>
+        </Background>
+    );
 };
 
 export default Home;
