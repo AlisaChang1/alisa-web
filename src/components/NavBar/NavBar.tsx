@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav>
                 <ul>
                     <Options>
-                        <Link to='/home'>
+                        <Link to='/'>
                             <Logo src={logo}></Logo>
                         </Link>
                     </Options>
@@ -21,7 +21,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <Switch>
-                <Route exact path='/home' component={Home} />
+                <Route exact path='/' component={Home} />
             </Switch>
         </Router>
     );
