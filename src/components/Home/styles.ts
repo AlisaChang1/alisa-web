@@ -1,16 +1,14 @@
-import styled, { keyframes } from 'styled-components';
+import styled, { keyframes, createGlobalStyle } from 'styled-components';
+import background from '../images/36401449295_e25881d153_b.jpg';
 
-// export const Background = styled.img`
-//   background-color: pink;
-//   height: 100%;
-//   margin-top: 0;
-//   width: 100%;
-// `;
-
-export const Background = styled.div`
-  height: 100%;
-  width: 100%
-  background-color: grey;
+export const Background = createGlobalStyle`
+    html, body {
+      background-image: url(${background});
+      background-size: cover;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
 `;
 
 export const Fade = keyframes`
