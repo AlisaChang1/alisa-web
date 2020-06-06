@@ -20,6 +20,11 @@ export const Fade = keyframes`
   }
 `;
 
+export const IntroContainer = styled.div`
+    height: 500px;
+    width: 100%;
+`;
+
 export const Intro = styled.h1`
     left: 0;
     line-height: 300px;
@@ -46,4 +51,8 @@ export const Name = styled.h2`
     color: #fa1b87;
     font-size: 30px;
     font-family: 'Monaco';
+`;
+
+export const Paragraph = styled.div`
+    font-family: 'Actor';
 `;
