@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import background from '@src/components/images/36401449295_e25881d153_b.jpg';
+import React from 'react';
 import { Background, Name, Intro, Paragraph, IntroContainer } from './styles';
 import { myName, AlisaChang, Paragraph1, Paragraph2 } from '../../constants';
 
