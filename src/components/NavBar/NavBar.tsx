@@ -1,14 +1,13 @@
 import React from 'react';
 import logo from '../images/SmallLogo.png';
-import './styles.ts';
 import Home from '../Home/index';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
-import { Options, Logo, Resume } from './styles';
+import { Options, Logo, Resume, NavBar } from './styles';
 
 const Navbar = () => {
     return (
         <Router basename='/alisa-web'>
-            <nav>
+            <NavBar>
                 <ul>
                     <Options>
                         <Link to='/'>
@@ -19,7 +18,7 @@ const Navbar = () => {
                         <Link to='/resume'>Resume</Link>
                     </Resume>
                 </ul>
-            </nav>
+            </NavBar>
             <Switch>
                 <Route exact path='/' component={Home} />
             </Switch>
