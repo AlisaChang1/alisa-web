@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../images/SmallLogo.png';
-import Home from '../Home/index';
+import logo from '../../images/HomeImages/SmallLogo.png';
+import Home from '../../pages/Home/Home';
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import { Options, Logo, Resume, NavBar } from './styles';
 
