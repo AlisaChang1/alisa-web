@@ -10,7 +10,8 @@ export const Paragraph1 =
 export const Paragraph2 =
   "I created this website as a way to share my ideas and interests with others. Here you will find blog posts about my life and hobbies, life coaching help, my resume and more.";
 
-// Resume.tsx (Not made yet)
+// Profile.tsx (Not made yet)
+export const ProfileHeader = "Profile";
 export const WaterlooDescription =
   "I am currently studying computer engineering at the University of Waterloo. UW has given me the opportunity to study alongside some of the brightest students and has given me the opportunity to learn and gain work experience at the same time. I've made some amazing friends here and I've learned so much about myself.";
 export const VenngageDescription =
