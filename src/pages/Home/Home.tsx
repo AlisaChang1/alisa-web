@@ -1,7 +1,18 @@
 import React from "react";
-import { Background, Header, StyledBox, NameBox, Name } from "./styles";
-import { AlisaChang, Paragraph1, Paragraph2 } from "../../constants";
+import {
+  Background,
+  Header,
+  StyledBox,
+  NameBox,
+  Name,
+  AboutContainer,
+  InnerNameBox,
+  AboutText,
+  Image,
+} from "./styles";
+import { AlisaChang, AboutSite } from "../../constants";
 import CardContainer from "./components/CardContainer";
+import MyImage from "../../images/HomeImages/IMG_0990.jpeg";
 // import WaterlooLogo from '../images/HomeImages/1200px-University_of_Waterloo_seal.svg.png';
 
 const Home = () => {
@@ -10,9 +21,15 @@ const Home = () => {
       <Background />
       <StyledBox>
         <NameBox>
-          <Name>{AlisaChang}</Name>
+          <InnerNameBox>
+            <Name>{AlisaChang}</Name>
+          </InnerNameBox>
         </NameBox>
       </StyledBox>
+      <AboutContainer>
+        <Image src={MyImage}></Image>
+        <AboutText>{AboutSite}</AboutText>
+      </AboutContainer>
       <Header>More Information</Header>
       <CardContainer />
     </>
