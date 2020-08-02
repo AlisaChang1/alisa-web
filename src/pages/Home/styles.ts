@@ -27,14 +27,16 @@ export const StyledBox = styled(Box)`
   background-color: transparent;
   margin: 40px auto auto auto !important;
   padding-top: 40px;
+  min-width: 539px;
 `;
 
 export const NameBox = styled(Box)`
   height: 250px;
   width: 40%;
-  margin: 153px auto;
+  margin: 139px auto;
   background-color: pink;
   text-align: center;
+  min-width: 355px;
 `;
 
 export const InnerNameBox = styled(Box)`
@@ -86,7 +88,7 @@ export const Header = styled.div`
 `;
 
 export const AboutContainer = styled(Box)`
-  width: 100%;
+  min-width: 539px;
   background-color: grey;
   min-height: 500px;
   margin-top: 40px;

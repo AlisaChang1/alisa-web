@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
       theme.palette.type === "light"
         ? theme.palette.grey[200]
         : theme.palette.grey[800],
+    minWidth: "502px",
   },
 }));
 
