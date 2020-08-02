@@ -32,11 +32,7 @@ export const StyledBox = styled(Box)`
 export const NameBox = styled(Box)`
   height: 250px;
   width: 40%;
-<<<<<<< HEAD
-  margin: 138px auto;
-=======
   margin: 153px auto;
->>>>>>> AW-45 styles home page
   background-color: pink;
   text-align: center;
 `;
