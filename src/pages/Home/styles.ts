@@ -24,7 +24,7 @@ export const Fade = keyframes`
 export const StyledBox = styled(Box)`
   height: 575px;
   width: 100%;
-  background-color: rgba(177, 206, 241, 0.5);
+  background-color: transparent;
   margin: 40px auto auto auto !important;
   padding-top: 40px;
 `;
@@ -33,7 +33,16 @@ export const NameBox = styled(Box)`
   height: 250px;
   width: 40%;
   margin: 138px auto;
+  background-color: pink;
+  text-align: center;
+`;
+
+export const InnerNameBox = styled(Box)`
+  height: 150px;
+  width: 70%;
+  margin-top: 54px;
   background-color: white;
+  display: inline-block;
 `;
 
 export const Name = styled.h1`
@@ -43,7 +52,7 @@ export const Name = styled.h1`
   font-size: 44px;
   font-family: cursive;
   opacity: 1;
-  padding-top: 90px;
+  padding-top: 12px;
 `;
 
 export const Intro = styled.h2`
@@ -74,5 +83,27 @@ export const Header = styled.div`
   font-size: 28px;
   padding-left: 26px;
   padding-top: 50px;
-}
+`;
+
+export const AboutContainer = styled(Box)`
+  width: 100%;
+  background-color: grey;
+  min-height: 500px;
+  margin-top: 40px;
+  text-align: center;
+`;
+
+export const AboutText = styled.div`
+  font-family: arial;
+  font-size: 20px;
+  color: white;
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+`;
+
+export const Image = styled.img`
+  width: 195px;
+  height: 200px;
+  padding-top: 50px;
 `;
