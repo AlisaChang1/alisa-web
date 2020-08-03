@@ -19,14 +19,6 @@ const HamburgerMenu = () => {
   const [open, setOpen] = React.useState(false);
   const theme = useTheme();
 
-  //   const handleDrawerOpen = () => {
-  //     setOpen(true);
-  //   };
-
-  //   const handleDrawerClose = () => {
-  //     setOpen(false);
-  //   };
-
   const handleDrawerClick = () => {
     setOpen(!open);
   };
