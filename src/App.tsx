@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <>
         {isMobile() ? <HamburgerMenu /> : <NavBar />}
-        <StickyFooter />
+        {/* <StickyFooter /> */}
       </>
     );
   }

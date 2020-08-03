@@ -3,6 +3,7 @@ import logo from "../../images/HomeImages/SmallLogo.png";
 import Home from "../../pages/Home/Home";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { Options, Logo, Links, NavBar } from "./styles";
+import ComingSoon from "../../pages/Coming Soon/ComingSoon";
 
 const Navbar = () => {
   return (
@@ -33,6 +34,11 @@ const Navbar = () => {
       </NavBar>
       <Switch>
         <Route exact path='/' component={Home} />
+        <Route exact path='/resume' component={ComingSoon} />
+        <Route exact path='/coach' component={ComingSoon} />
+        <Route exact path='/about' component={ComingSoon} />
+        <Route exact path='/contact' component={ComingSoon} />
+        <Route exact path='/blog' component={ComingSoon} />
       </Switch>
     </Router>
   );
