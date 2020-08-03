@@ -18,3 +18,7 @@ export const CIBCDescription =
   "CIBC was my first co-op and first tech job. I worked at CIBC Live Labs which is their innovation lab. This is where I got my first glimpse of frontend and backend web development.";
 export const POFDescription =
   "My most recent co-op was at Plenty Of Fish where I worked primarily as a React developer. At this point I felt that I had enough experience in this field and was able to learn more niche aspects of frontend web development.";
+
+// ComingSoon.tsx
+export const ComingSoon =
+  "Thanks for visiting my site! This page hasn't been made yet, but check back soon!";
