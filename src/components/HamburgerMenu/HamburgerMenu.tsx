@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Drawer from "@material-ui/core/Drawer";
-import CssBaseline from "@material-ui/core/CssBaseline";
 import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
 import List from "@material-ui/core/List";
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
@@ -10,14 +8,12 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import { useTheme } from "@material-ui/core/styles";
 import { StyledToolBar, StyledListItem } from "./styles";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../../pages/Home/Home";
-import { ClickAwayListener } from "@material-ui/core";
+import ComingSoon from "../../pages/Coming Soon/ComingSoon";
 
 const HamburgerMenu = () => {
   const [open, setOpen] = React.useState(false);
@@ -102,6 +98,11 @@ const HamburgerMenu = () => {
         </Drawer>
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/resume' component={ComingSoon} />
+          <Route exact path='/coach' component={ComingSoon} />
+          <Route exact path='/about' component={ComingSoon} />
+          <Route exact path='/contact' component={ComingSoon} />
+          <Route exact path='/blog' component={ComingSoon} />
         </Switch>
       </Router>
     </>

@@ -20,5 +20,6 @@ export const POFDescription =
   "My most recent co-op was at Plenty Of Fish where I worked primarily as a React developer. At this point I felt that I had enough experience in this field and was able to learn more niche aspects of frontend web development.";
 
 // ComingSoon.tsx
-export const ComingSoon =
+export const ComingSoonTitle = "Coming Soon!";
+export const ComingSoonMessage =
   "Thanks for visiting my site! This page hasn't been made yet, but check back soon!";
