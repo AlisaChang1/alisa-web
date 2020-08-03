@@ -103,6 +103,7 @@ export const AboutText = styled.div`
   margin: auto;
   padding-top: 30px;
   line-height: 1.5;
+  padding-bottom: 10px;
 `;
 
 export const Image = styled.img`

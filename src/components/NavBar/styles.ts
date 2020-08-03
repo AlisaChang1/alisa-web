@@ -3,6 +3,9 @@ import styled from "styled-components";
 export const NavBar = styled.nav`
   height: 80px;
   background-color: rgba(250, 250, 250, 1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;
 export const Options = styled.a`
   float: left;

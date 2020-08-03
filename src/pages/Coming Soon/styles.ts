@@ -29,6 +29,7 @@ export const ComingSoonContainer = styled(Container)`
   display: inline-flex;
   text-align: center;
   height: 86px;
+  width: unset;
 `;
 
 export const ComingSoonMessageContainer = styled(Container)`

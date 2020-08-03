@@ -1,7 +1,8 @@
 // Home.tsx
 export const AlisaChang = "Alisa Chang";
 export const AboutSite =
-  "I created this site as a way of sharing my thoughts and abilities. I wanted a place where I could share my thought with people and for people to share theirs. Feel free to reach out and give me any suggestions you have for the site!";
+  "I created this site as a way of sharing my thoughts and abilities. This site is a way of show casing my skills as a developer, a student, and a life coach. Feel free to reach out and give me any suggestions you have for the site!";
+export const MoreInformation = "Click here for more information";
 
 // About.tsx (Not made yet)
 export const Paragraph1 =
