@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/alisa-web/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/alisa-web/static/js/main.c5d859a7.chunk.js",
-    "main.js.map": "/alisa-web/static/js/main.c5d859a7.chunk.js.map",
+    "main.js": "/alisa-web/static/js/main.7f621181.chunk.js",
+    "main.js.map": "/alisa-web/static/js/main.7f621181.chunk.js.map",
     "runtime-main.js": "/alisa-web/static/js/runtime-main.b9b49233.js",
     "runtime-main.js.map": "/alisa-web/static/js/runtime-main.b9b49233.js.map",
-    "static/js/2.65104ae5.chunk.js": "/alisa-web/static/js/2.65104ae5.chunk.js",
-    "static/js/2.65104ae5.chunk.js.map": "/alisa-web/static/js/2.65104ae5.chunk.js.map",
+    "static/js/2.daf8af9d.chunk.js": "/alisa-web/static/js/2.daf8af9d.chunk.js",
+    "static/js/2.daf8af9d.chunk.js.map": "/alisa-web/static/js/2.daf8af9d.chunk.js.map",
     "index.html": "/alisa-web/index.html",
-    "precache-manifest.33447cbc57fbed023912e100474f891f.js": "/alisa-web/precache-manifest.33447cbc57fbed023912e100474f891f.js",
+    "precache-manifest.1f5301011bfa06edb98647b2cfa9baea.js": "/alisa-web/precache-manifest.1f5301011bfa06edb98647b2cfa9baea.js",
     "service-worker.js": "/alisa-web/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/alisa-web/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.65104ae5.chunk.js.LICENSE.txt": "/alisa-web/static/js/2.65104ae5.chunk.js.LICENSE.txt",
+    "static/js/2.daf8af9d.chunk.js.LICENSE.txt": "/alisa-web/static/js/2.daf8af9d.chunk.js.LICENSE.txt",
     "static/media/IMG_0990.jpeg": "/alisa-web/static/media/IMG_0990.b0667bf6.jpeg",
     "static/media/SmallLogo.png": "/alisa-web/static/media/SmallLogo.952bc868.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b9b49233.js",
-    "static/js/2.65104ae5.chunk.js",
+    "static/js/2.daf8af9d.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.c5d859a7.chunk.js"
+    "static/js/main.7f621181.chunk.js"
   ]
 }
