@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82c26528172ca58d537daef5ae1d1b2f",
+    "revision": "8cb57d1c4ddb1f0219e7009b94af7fed",
     "url": "/alisa-web/index.html"
   },
   {
