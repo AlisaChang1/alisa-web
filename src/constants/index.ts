@@ -24,3 +24,12 @@ export const POFDescription =
 export const ComingSoonTitle = "Coming Soon!";
 export const ComingSoonMessage =
   "Thanks for visiting my site! This page hasn't been made yet, but check back soon!";
+
+// Contact.tsx
+export const ContactInformation = "Contact Information";
+export const PhoneNumber = "416-882-3410";
+export const Email = "alisa.chang@rogers.com";
+export const Instagram = "@_alisachang_";
+export const LinkedIn = "https://www.linkedin.com/in/alisaschang/";
+export const ReachOut =
+  "Feel free to reach out if you have any ideas or fixes regarding the site!";

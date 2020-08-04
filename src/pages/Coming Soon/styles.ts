@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
-import { Box, Container } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 
 export const Background = createGlobalStyle`
     html, body {

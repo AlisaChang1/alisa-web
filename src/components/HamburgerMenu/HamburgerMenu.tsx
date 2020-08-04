@@ -14,6 +14,7 @@ import { StyledToolBar, StyledListItem } from "./styles";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import ComingSoon from "../../pages/Coming Soon/ComingSoon";
+import Contact from "../../pages/Contact/Contact";
 
 const HamburgerMenu = () => {
   const [open, setOpen] = React.useState(false);
@@ -93,7 +94,7 @@ const HamburgerMenu = () => {
           <Route exact path='/resume' component={ComingSoon} />
           <Route exact path='/coach' component={ComingSoon} />
           <Route exact path='/about' component={ComingSoon} />
-          <Route exact path='/contact' component={ComingSoon} />
+          <Route exact path='/contact' component={Contact} />
           <Route exact path='/blog' component={ComingSoon} />
         </Switch>
       </Router>
