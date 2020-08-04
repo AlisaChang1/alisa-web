@@ -4,6 +4,7 @@ import Home from "../../pages/Home/Home";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { Options, Logo, Links, NavBar } from "./styles";
 import ComingSoon from "../../pages/Coming Soon/ComingSoon";
+import Contact from "../../pages/Contact/Contact";
 
 const Navbar = () => {
   return (
@@ -37,7 +38,7 @@ const Navbar = () => {
         <Route exact path='/resume' component={ComingSoon} />
         <Route exact path='/coach' component={ComingSoon} />
         <Route exact path='/about' component={ComingSoon} />
-        <Route exact path='/contact' component={ComingSoon} />
+        <Route exact path='/contact' component={Contact} />
         <Route exact path='/blog' component={ComingSoon} />
       </Switch>
     </Router>
