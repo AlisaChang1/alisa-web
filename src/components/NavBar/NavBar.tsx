@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { Options, Logo, Links, NavBar } from "./styles";
 import ComingSoon from "../../pages/Coming Soon/ComingSoon";
 import Contact from "../../pages/Contact/Contact";
+import Profile from "../../pages/Profile/Profile";
 
 const Navbar = () => {
   return (
@@ -17,25 +18,25 @@ const Navbar = () => {
             </Link>
           </Options>
           <Links>
+            <Link to='/about'>About</Link>
+          </Links>
+          <Links>
             <Link to='/resume'>Resume</Link>
           </Links>
           <Links>
             <Link to='/coach'>Life Coaching</Link>
           </Links>
           <Links>
-            <Link to='/about'>About</Link>
+            <Link to='/blog'>Blog</Link>
           </Links>
           <Links>
             <Link to='/contact'>Contact</Link>
-          </Links>
-          <Links>
-            <Link to='/blog'>Blog</Link>
           </Links>
         </ul>
       </NavBar>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/resume' component={ComingSoon} />
+        <Route exact path='/resume' component={Profile} />
         <Route exact path='/coach' component={ComingSoon} />
         <Route exact path='/about' component={ComingSoon} />
         <Route exact path='/contact' component={Contact} />

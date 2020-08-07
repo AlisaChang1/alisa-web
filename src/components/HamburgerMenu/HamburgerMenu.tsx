@@ -15,6 +15,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import ComingSoon from "../../pages/Coming Soon/ComingSoon";
 import Contact from "../../pages/Contact/Contact";
+import Profile from "../../pages/Profile/Profile";
 
 const HamburgerMenu = () => {
   const [open, setOpen] = React.useState(false);
@@ -59,6 +60,11 @@ const HamburgerMenu = () => {
                 <ListItemText onClick={handleDrawerClick} primary='Home' />
               </Link>
             </StyledListItem>
+            <StyledListItem button key='About'>
+              <Link to='/about'>
+                <ListItemText primary='About' onClick={handleDrawerClick} />
+              </Link>
+            </StyledListItem>
             <StyledListItem button key='Resume'>
               <Link to='/resume'>
                 <ListItemText primary='Resume' onClick={handleDrawerClick} />
@@ -72,9 +78,9 @@ const HamburgerMenu = () => {
                 />
               </Link>
             </StyledListItem>
-            <StyledListItem button key='About'>
-              <Link to='/about'>
-                <ListItemText primary='About' onClick={handleDrawerClick} />
+            <StyledListItem button key='Blog'>
+              <Link to='/blog'>
+                <ListItemText primary='Blog' onClick={handleDrawerClick} />
               </Link>
             </StyledListItem>
             <StyledListItem button key='Contact'>
@@ -82,16 +88,11 @@ const HamburgerMenu = () => {
                 <ListItemText primary='Contact' onClick={handleDrawerClick} />
               </Link>
             </StyledListItem>
-            <StyledListItem button key='Blog'>
-              <Link to='/blog'>
-                <ListItemText primary='Blog' onClick={handleDrawerClick} />
-              </Link>
-            </StyledListItem>
           </List>
         </Drawer>
         <Switch>
           <Route exact path='/' component={Home} />
-          <Route exact path='/resume' component={ComingSoon} />
+          <Route exact path='/resume' component={Profile} />
           <Route exact path='/coach' component={ComingSoon} />
           <Route exact path='/about' component={ComingSoon} />
           <Route exact path='/contact' component={Contact} />
