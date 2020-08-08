@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/alisa-web/static/css/main.34de6062.chunk.css",
-    "main.js": "/alisa-web/static/js/main.016d3a89.chunk.js",
-    "main.js.map": "/alisa-web/static/js/main.016d3a89.chunk.js.map",
+    "main.js": "/alisa-web/static/js/main.d2677e5c.chunk.js",
+    "main.js.map": "/alisa-web/static/js/main.d2677e5c.chunk.js.map",
     "runtime-main.js": "/alisa-web/static/js/runtime-main.b9b49233.js",
     "runtime-main.js.map": "/alisa-web/static/js/runtime-main.b9b49233.js.map",
-    "static/js/2.4af0791f.chunk.js": "/alisa-web/static/js/2.4af0791f.chunk.js",
-    "static/js/2.4af0791f.chunk.js.map": "/alisa-web/static/js/2.4af0791f.chunk.js.map",
+    "static/js/2.049b3552.chunk.js": "/alisa-web/static/js/2.049b3552.chunk.js",
+    "static/js/2.049b3552.chunk.js.map": "/alisa-web/static/js/2.049b3552.chunk.js.map",
     "index.html": "/alisa-web/index.html",
-    "precache-manifest.9730a1519c6451ca96b1318f2d96f427.js": "/alisa-web/precache-manifest.9730a1519c6451ca96b1318f2d96f427.js",
+    "precache-manifest.a41ca3b82a25494bf30630eb5efabc0c.js": "/alisa-web/precache-manifest.a41ca3b82a25494bf30630eb5efabc0c.js",
     "service-worker.js": "/alisa-web/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/alisa-web/static/css/main.34de6062.chunk.css.map",
-    "static/js/2.4af0791f.chunk.js.LICENSE.txt": "/alisa-web/static/js/2.4af0791f.chunk.js.LICENSE.txt",
+    "static/js/2.049b3552.chunk.js.LICENSE.txt": "/alisa-web/static/js/2.049b3552.chunk.js.LICENSE.txt",
     "static/media/1200px-University_of_Waterloo_seal.svg.png": "/alisa-web/static/media/1200px-University_of_Waterloo_seal.svg.69c53a32.png",
     "static/media/14-512.png": "/alisa-web/static/media/14-512.a7c4a272.png",
     "static/media/CIBC_logo.svg.png": "/alisa-web/static/media/CIBC_logo.svg.089379c7.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b9b49233.js",
-    "static/js/2.4af0791f.chunk.js",
+    "static/js/2.049b3552.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.016d3a89.chunk.js"
+    "static/js/main.d2677e5c.chunk.js"
   ]
 }
