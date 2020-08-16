@@ -4,12 +4,17 @@ import {
   WaterlooDescription,
   VenngageDescription,
   POFDescription,
+  WaterlooDate,
+  VenngageDate,
+  CIBCDate,
+  POFDate,
 } from "../../../constants/index";
 import {
   ResumeContainer,
   StyledCardContent,
   Image,
   CardMessage,
+  DateContainer,
 } from "../styles";
 import CIBCLogo from "../../../images/ResumeImages/CIBC_logo.svg.png";
 import WaterlooLogo from "../../../images/ResumeImages/1200px-University_of_Waterloo_seal.svg.png";
@@ -22,25 +27,37 @@ const WorkExperience = () => {
       <ResumeContainer>
         <StyledCardContent>
           <Image src={WaterlooLogo} />
-          <CardMessage>{WaterlooDescription}</CardMessage>
+          <div>
+            <DateContainer>{WaterlooDate}</DateContainer>
+            <CardMessage>{WaterlooDescription}</CardMessage>
+          </div>
         </StyledCardContent>
       </ResumeContainer>
       <ResumeContainer>
         <StyledCardContent>
           <Image src={CIBCLogo} />
-          <CardMessage>{CIBCDescription}</CardMessage>
+          <div>
+            <DateContainer>{CIBCDate}</DateContainer>
+            <CardMessage>{CIBCDescription}</CardMessage>
+          </div>
         </StyledCardContent>
       </ResumeContainer>
       <ResumeContainer>
         <StyledCardContent>
           <Image src={VenngageLogo} />
-          <CardMessage>{VenngageDescription}</CardMessage>
+          <div>
+            <DateContainer>{VenngageDate}</DateContainer>
+            <CardMessage>{VenngageDescription}</CardMessage>
+          </div>
         </StyledCardContent>
       </ResumeContainer>
       <ResumeContainer>
         <StyledCardContent>
           <Image src={POFLogo} />
-          <CardMessage>{POFDescription}</CardMessage>
+          <div>
+            <DateContainer>{POFDate}</DateContainer>
+            <CardMessage>{POFDescription}</CardMessage>
+          </div>
         </StyledCardContent>
       </ResumeContainer>
     </>

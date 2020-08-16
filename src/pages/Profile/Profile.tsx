@@ -1,13 +1,16 @@
 import React from "react";
-import { ProfileHeader } from "../../constants/index";
-import { Background, Header } from "./styles";
+import { ProfileHeader, ResumeParagraph } from "../../constants/index";
+import { Background, Header, ParagraphContainer } from "./styles";
 import WorkExperience from "./components/WorkExperience";
+import Skills from "./components/Skills";
 
 const Profile = () => {
   return (
     <>
       <Background />
       <Header>{ProfileHeader}</Header>
+      {/* <Skills /> */}
+      <ParagraphContainer>{ResumeParagraph}</ParagraphContainer>
       <WorkExperience />
     </>
   );
