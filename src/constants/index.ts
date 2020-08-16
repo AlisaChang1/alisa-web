@@ -41,3 +41,17 @@ export const Instagram = "@_alisachang_";
 export const LinkedIn = "https://www.linkedin.com/in/alisaschang/";
 export const ReachOut =
   "Feel free to reach out if you have any ideas or fixes regarding the site!";
+
+// LifeCoaching.tsx
+export const LifeCoachingTitle = "Life Coaching";
+export const LifeCoachingIntro =
+  "I recently finished a life coaching certification course and am now certified as a life coach. My goal is to help people achieve their goals especially young adults who are looking for some guidance in the different facets of life as a gen z. My focus is on mental health, relationships in the technological age, school, and other areas affecting gen z's today.";
+export const LifeCoachingEthics =
+  "As a coach I promise confidentiality and to do my best to guide and support to the best of my abilities.";
+export const LifeCoachingInformation =
+  "You can find my contact information here to book an appointment or consultation.";
+export const Pricing = "Pricing";
+export const Consultation = "Consultation: free";
+export const IndividualSessions = "Individual Sessions: $35/hour";
+export const Package = "Package: $300 for 10";
+export const PersonalPreference = "Please reach out if you have any questions!";
