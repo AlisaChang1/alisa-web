@@ -6,6 +6,7 @@ import { Options, Logo, Links, NavBar } from "./styles";
 import ComingSoon from "../../pages/Coming Soon/ComingSoon";
 import Contact from "../../pages/Contact/Contact";
 import Profile from "../../pages/Profile/Profile";
+import LifeCoaching from "../../pages/Life Coaching/LifeCoaching";
 
 const Navbar = () => {
   return (
@@ -37,7 +38,7 @@ const Navbar = () => {
       <Switch>
         <Route exact path='/' component={Home} />
         <Route exact path='/resume' component={Profile} />
-        <Route exact path='/coach' component={ComingSoon} />
+        <Route exact path='/coach' component={LifeCoaching} />
         <Route exact path='/about' component={ComingSoon} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/blog' component={ComingSoon} />
