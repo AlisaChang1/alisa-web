@@ -47,7 +47,7 @@ export const LifeCoachingTitle = "Life Coaching";
 export const LifeCoachingIntro =
   "I recently finished a life coaching certification course and am now certified as a life coach. My goal is to help people achieve their goals especially young adults who are looking for some guidance in the different facets of life as a gen z. My focus is on mental health, relationships in the technological age, school, and other areas affecting gen z's today.";
 export const LifeCoachingEthics =
-  "As a coach I promise confidentiality and to do my best to guide and support to the best of my abilities.";
+  "As a coach I promise confidentiality and to do my best to guide and support to the best of my abilities. To read more about the code of ethics click the link below.";
 export const LifeCoachingInformation =
   "You can find my contact information here to book an appointment or consultation.";
 export const Pricing = "Pricing";
